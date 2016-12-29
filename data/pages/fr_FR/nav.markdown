@@ -8,7 +8,6 @@
 
 - [Hébergement](/fr/hebergement)
 - [Version Entreprise](/fr/entreprise)
-- [Personnalisation](/fr/personnalisation)
 
 ### Communauté
 

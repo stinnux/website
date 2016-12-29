@@ -339,8 +339,6 @@ $pages = [
     '/fr' => 'fr_FR/index.markdown',
     '/features' => 'en_US/features.markdown',
     '/fr/fonctionnalites' => 'fr_FR/features.markdown',
-    '/consulting' => 'en_US/consulting.markdown',
-    '/fr/personnalisation' => 'fr_FR/consulting.markdown',
     '/enterprise' => 'en_US/enterprise.markdown',
     '/fr/entreprise' => 'fr_FR/enterprise.markdown',
     '/downloads' => 'en_US/downloads.markdown',
@@ -390,6 +388,8 @@ $redirects = [
     '/features/dashboard' => '/features',
     '/features/search-and-filters' => '/features',
     '/features/kanban' => '/features',
+    '/consulting' => '/enterprise',
+    '/fr/personnalisation' => '/fr/entreprise',
 ];
 
 foreach ($redirects as $source => $destination) {

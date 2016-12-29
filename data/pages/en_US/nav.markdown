@@ -8,7 +8,6 @@
 
 - [Managed Hosting](/hosting)
 - [Enterprise Version](/enterprise)
-- [Consulting](/consulting)
 
 ### Community
 
