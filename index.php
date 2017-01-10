@@ -334,8 +334,29 @@ foreach ($docs as $url => $language) {
 
 
 $pages = [
+    '/hosting' => 'en_US/hosting.markdown',
+    '/fr/hebergement' => 'fr_FR/hosting.markdown',
+];
+
+foreach ($pages as $url => $markdown_file) {
+    $app->get($url, function () use ($app, $markdown_file) {
+        return cache($app, function () use ($app, $markdown_file) {
+            $page = render_page(DATA_PATH.'pages/'.$markdown_file);
+
+            return $app['twig']->render('hosting.twig', [
+                'page' => $page,
+                'nav' => render_nav($page['language']),
+                'language' => $page['language'],
+            ]);
+        });
+    });
+}
+
+
+$pages = [
     '/' => 'en_US/index.markdown',
     '/security' => 'en_US/security.markdown',
+    '/terms' => 'en_US/tos.markdown',
     '/fr' => 'fr_FR/index.markdown',
     '/features' => 'en_US/features.markdown',
     '/fr/fonctionnalites' => 'fr_FR/features.markdown',

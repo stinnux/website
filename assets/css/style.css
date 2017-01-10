@@ -136,7 +136,7 @@ input[type="text"]:focus {
     border: 1px solid #ccc;
     background: #efefef;
     padding: 5px 15px;
-    font-size: 100%;
+    font-size: 1.2em;
     cursor: pointer;
     border-radius: 2px;
 }
@@ -319,6 +319,10 @@ footer {
     color: #bbb;
 }
 
+#newsletter .btn {
+    font-size: 0.95em;
+}
+
 .news-content time {
     color: brown;
     font-size: 0.85em;
@@ -363,4 +367,33 @@ footer {
     font-style: italic;
     color: #aaa;
     margin-top: 15px;
+}
+
+aside {
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 3px;
+}
+
+aside a {
+    color: #aaa;
+}
+
+#hosting {
+    border: 2px dotted #ddd;
+    padding: 20px 20px 0;
+    margin-top: 5px;
+    font-size: 110%;
+}
+
+#hosting h3 {
+    color: #444;
+}
+
+#hosting p {
+    color: #777;
+}
+
+.align-center {
+    text-align: center;
 }

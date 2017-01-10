@@ -11,8 +11,10 @@ We made Kanboard, and we can host it for you. Kanboard hosting is made for small
 The subscription is **only $30/month** with a **free trial period of 15 days**.
 
 <p class="align-center">
-    <a href="https://signup.kanboard.net/" class="btn btn-blue" id="subscribe-link">Try Kanboard for free</a>
+    <a href="https://signup.kanboard.net/" class="btn btn-blue" id="subscribe-link">Try Kanboard Now</a>
 </p>
+
+During the beta period, we do not count the number of users or the disk usage of each tenant.
 
 Why use the hosted version?
 ---------------------------
@@ -23,28 +25,39 @@ You don't have to worry about technical details: server administration, security
 
 ### Automatic updates and backups
 
-The hosted version of Kanboard uses the latest open source stable version.
+The hosted version of Kanboard uses the latest stable version.
 Official plugins are updated for you.
 Daily backup of your data is made automatically for you.
 
 ### No vendor lock-in
 
-The hosted version is fully compatible with the open source version. 
+The hosted version is exactly the same version as the open source version.
+
 You can ask for a copy of your data at any time and use it without any modifications (we use Postgresql).
 
 ### Secure connection
 
 You can access to Kanboard by HTTPS with a valid SSL certificate.
 
-### Sustainable business model and privacy
+### Sustainable business model
 
 If you're not paying for it, you're the product.
-There are no ads, no user tracking, no spam, no marketing.
+
 We are small and independent, not a large scale business.
+
+### Kanboard does not collect or share personal information
+
+There is no ads, no user tracking or spam.
+
+We respect the privacy of our users.
 
 ### Human customer support
 
 You can talk directly by email to the developers, real humans, not another outsourced customer support.
 We can communicate in English or in French.
 
-Any problem or question? contact us at [support@kanboard.net](mailto:support@kanboard.net)
+### Questions?
+
+Any problem or question? contact-us at [support@kanboard.net](mailto:support@kanboard.net)
+
+<aside><a href="/terms">Terms of Service and Privacy</aside>
