@@ -368,6 +368,7 @@ $pages = [
     '/fr/hebergement' => 'fr_FR/hosting.markdown',
     '/donations' => 'en_US/donations.markdown',
     '/fr/donations' => 'fr_FR/donations.markdown',
+    '/related-projects' => 'en_US/projects.markdown',
 ];
 
 foreach ($pages as $url => $markdown_file) {
