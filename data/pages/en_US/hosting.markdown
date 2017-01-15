@@ -11,7 +11,7 @@ We made Kanboard, and we can host it for you. Kanboard hosting is made for small
 The subscription is **only $30/month** with a **free trial period of 15 days**.
 
 <p class="align-center">
-    <a href="https://signup.kanboard.net/" class="btn btn-blue" id="subscribe-link">Try Kanboard Now</a>
+    <a href="https://signup.kanboard.net/" class="btn btn-blue subscribe-link">Try Kanboard Now</a>
 </p>
 
 During the beta period, we do not count the number of users or the disk usage of each tenant.

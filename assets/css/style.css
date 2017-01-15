@@ -397,3 +397,12 @@ aside a {
 .align-center {
     text-align: center;
 }
+
+.subscribe {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.subscribe p {
+    margin-bottom: 5px;
+}

@@ -12,7 +12,7 @@ L'hébergement Kanboard est fait pour les petites équipes.
 L'abonnement est seulement de **30$/mois** avec **une période d'essai gratuite de 15 jours**.
 
 <p class="align-center">
-    <a href="https://signup.kanboard.net/" class="btn btn-blue" id="subscribe-link">Essayer Kanboard gratuitement</a>
+    <a href="https://signup.kanboard.net/" class="btn btn-blue subscribe-link">Essayer Kanboard gratuitement</a>
 </p>
 
 Pendant la période de bêta, nous ne comptabilisons pas le nombre d'utilisateurs ou l'espace disque utilisé.

@@ -5,12 +5,12 @@ Kanboard's website
 
 Build with PHP, Silex, Twig, Parsedown and [PicoFeed](https://github.com/fguillot/picoFeed).
 
-Installation
-------------
+Documentation
+-------------
 
-```bash
-composer install
-```
+The Kanboard's documentation source code is located in the Kanboard application repository: https://github.com/kanboard/kanboard. 
+
+This repository contains only a copy of the last stable release.
 
 Usage
 -----
