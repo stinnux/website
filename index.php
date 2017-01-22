@@ -26,11 +26,24 @@ if (php_sapi_name() === 'cli-server') {
     }
 }
 
+function is_valid_file($base_path, $filename)
+{
+    $base_real_path = realpath($base_path);
+    $user_real_path = realpath($filename);
+
+    return $user_real_path !== false && strpos($user_real_path, $base_real_path) === 0;
+}
+
 function render_doc($language, $file)
 {
     $file = basename($file);
-    $filename = DATA_PATH.'documentation/'.$language.'/'.$file.'.markdown';
+    $base_path = DATA_PATH . 'documentation';
+    $filename = $base_path . DIRECTORY_SEPARATOR . $language . DIRECTORY_SEPARATOR . $file .'.markdown';
     $url_lang = $language === DEFAULT_LANG ? '' : substr($language, 0, 2).'/';
+
+    if (! is_valid_file($base_path, $filename)) {
+        return false;
+    }
 
     if (! file_exists($filename)) {
         return false;
@@ -243,9 +256,16 @@ $app->get('/news', function () use ($app) {
 });
 
 $app->get('/news/{file}', function ($file) use ($app) {
-    return cache($app, function () use ($app, $file) {
+    $base_path = DATA_PATH . 'news' . DIRECTORY_SEPARATOR;
+    $filename = $base_path .  $file . '.markdown';
+
+    if (! is_valid_file($base_path, $filename)) {
+        return $app->abort(404);
+    }
+
+    return cache($app, function () use ($app, $file, $filename) {
         return $app['twig']->render('post.twig', [
-            'post' => render_page(DATA_PATH . 'news' . DIRECTORY_SEPARATOR . $file . '.markdown', $file),
+            'post' => render_page($filename, $file),
             'language' => DEFAULT_LANG,
             'nav' => render_nav(DEFAULT_LANG),
         ]);
