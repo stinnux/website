@@ -202,6 +202,7 @@ List of template hooks:
 | `template:board:task:footer`                              | Task in board: footer                              |
 | `template:board:task:icons`                               | Task in board: tooltip icon                        |
 | `template:board:column:dropdown`                          | Dropdown menu in board columns                     |
+| `template:board:column:header`                            | Board column header                                |
 | `template:board:tooltip:subtasks:header:before-assignee`  | Header of Subtask table on tootip before Assignee  |
 | `template:board:tooltip:subtasks:rows`                    | Column on row of Subtask table on tooltip          |
 | `template:config:sidebar`                                 | Sidebar on settings page                           |
@@ -225,6 +226,7 @@ List of template hooks:
 | `template:project-user:sidebar`                           | Sidebar on project user overview page              |
 | `template:project-list:menu:before`                       | Project list: before menu entries                  |
 | `template:project-list:menu:after`                        | Project list: after menu entries                   |
+| `template:project-overview:before-description`            | Project overview: before description               |
 | `template:task:layout:top`                                | Task layout top (after page header)                |
 | `template:task:details:top`                               | Task summary top                                   |
 | `template:task:details:bottom`                            | Task summary bottom                                |
