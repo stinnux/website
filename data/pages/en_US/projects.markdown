@@ -8,16 +8,16 @@ Related Projects
 
 List of external projects created by the community.
 
-
 API Clients
 -----------
 
 - [Official Python Client](https://github.com/kanboard/python-api-client)
+- [Official Javascript Client](https://github.com/kanboard/javascript-api-client)
 
-CI and source code management
------------------------------
+Continuous Integration / Source Code Management
+-----------------------------------------------
 
-- [Jenkins Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Kanboard+Plugin)
+- [Jenkins Plugin by Francois Masurel](https://wiki.jenkins-ci.org/display/JENKINS/Kanboard+Plugin)
 - [Git Hooks by Gene Pavlovsky](https://github.com/gene-pavlovsky/kanboard-git-hooks)
 
 Command Line Tools
