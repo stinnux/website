@@ -245,7 +245,7 @@ Budget planning based on sub-task time tracking:
          'readme' => 'https://raw.githubusercontent.com/oliviermaridat/kanboard-milestone-plugin/master/README.md',
          'download' => 'https://github.com/oliviermaridat/kanboard-milestone-plugin/releases/download/1.0.36/Milestone-1.0.36-1.zip',
          'remote_install' => true,
-         'compatible_version' => '1.0.36',
+         'compatible_version' => '>=1.0.36',
     ],
     'oauth2' => [
         'title' => 'OAuth2',
