@@ -81,15 +81,15 @@ Budget planning based on sub-task time tracking:
     ],
     'coverimage' => [
          'title' => 'Coverimage',
-         'version' => '1.0.33.0',
+         'version' => '1.0.38.0',
          'author' => 'BlueTeck',
          'license' => 'MIT',
          'description' => 'This plugin adds a coverimage function to the board.',
          'homepage' => 'https://github.com/BlueTeck/kanboard_plugin_coverimage',
          'readme' => 'https://raw.githubusercontent.com/BlueTeck/kanboard_plugin_coverimage/master/README.md',
-         'download' => 'https://github.com/BlueTeck/kanboard_plugin_coverimage/releases/download/1.0.33.0/Coverimage.zip',
+         'download' => 'https://github.com/BlueTeck/kanboard_plugin_coverimage/releases/download/1.0.38.0/Coverimage.zip',
          'remote_install' => true,
-         'compatible_version' => '1.0.33',
+         'compatible_version' => '1.0.38',
     ],
     'github-auth' => [
         'title' => 'Github Authentication',
